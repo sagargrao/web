@@ -1,0 +1,87 @@
+
+/* Main */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: Georgia, serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Content */
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+/* Article */
+article {
+    flex: 3;
+}
+
+/* Advertisement */
+aside {
+    flex: 1;
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+
+/* Section */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Image figure */
+figure {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Caption */
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Links */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}

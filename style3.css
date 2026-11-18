@@ -1,0 +1,78 @@
+
+/* Heading styles */
+h2 {
+    color: blue;
+    font-size: 30px;
+    
+}
+
+h3 {
+    color: pink;
+    font-size: 25px;
+}
+
+/* Horizontal line */
+hr {
+    background-color: red;
+    height: 2px;
+   
+}
+
+/* Paragraph style */
+p {
+    font-family: Arial;
+    margin: 10px 20px;
+    line-height: 1.5;
+}
+
+/* Div style */
+div {
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    margin: 10px 0;}
+
+/* Span style */
+span {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Time style */
+time {
+    color: green;
+}
+
+/* Image style */
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Link style */
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+/* Mouse hover effect */
+a:hover {
+    color: purple;
+    e;
+}
+
+/* Class selectors */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ID selector */
+#special-paragraph {
+    color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+
+/* Body */
+body {
+    font-family: Arial;
+    background-color: grey
+    padding: 30px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+/* Form groups */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+}
+
+/* Input fields */
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+/* Gender options */
+.gender-options {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+/* Reset button */
+input[type="reset"] {
+    background-color: red;
+    color: white;
+}

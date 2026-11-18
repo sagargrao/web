@@ -1,0 +1,182 @@
+
+/* COMMON BODY STYLE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: blue;
+    text-align: center;
+}
+
+/* PARAGRAPH */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+/* DIV */
+div {
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px 0;
+}
+
+/* SPAN AND TIME */
+span {
+    color: orange;
+    font-weight: bold;
+}
+
+time {
+    color: green;
+}
+
+/* IMAGE */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px gray;
+}
+
+/* LINKS */
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* HIGHLIGHT AND CENTER */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* REGISTRATION FORM */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* NEWSPAPER */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: Georgia, serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 4px double black;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+figure {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
